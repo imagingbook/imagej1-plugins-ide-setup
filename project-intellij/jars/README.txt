@@ -1,0 +1,1 @@
+If your project depends on other JAR files, copy them to this directory and add them to the classpath in Eclipse. The ImageJ runtime will find them automatically.
