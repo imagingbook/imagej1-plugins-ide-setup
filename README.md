@@ -2,7 +2,7 @@
 This repo contains a minimal setup for writing ImageJ (1) plugins with the Eclipse IDE. 
 The Eclipse project is set up with ``plugins/`` as the default output folder (for generated ``.class`` files).
 
-This reposiory is part of the [**imagingbook**](http://imagingbook.com) support suite.
+This repository is part of the [**imagingbook**](http://imagingbook.com) support suite.
 See [www.imagingbook.com](http://imagingbook.com) for additional resources.
 
 
