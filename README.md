@@ -7,7 +7,14 @@ See [www.imagingbook.com](http://imagingbook.com) for additional resources.
 
 
 ## Setup
-Clone this repository, start **Eclipse** and open this project with ``Open Projects from File System...`` (at the top-level directory).
+Clone this repository. It contains separate folders ``project-eclipse/`` and ``project-intellij``, each containing a self-contained project for Eclipse and IntelliJ, respectively. 
+Choose whichever you want to use and delete (or keep) the other.
+
+### Eclipse
+Start the **Eclipse Jave IDE** and use ``Open Projects from File System...`` to navigate to the ``project-eclipse/`` folder.
+
+###IntelliJ
+Start **IntelliJ IDEA** and use ``Open`` in the Weclome screen to navigate to the ``project-intellij/`` folder.
 
 ## Starting ImageJ
 The ImageJ runtime can be launched in various ways:
