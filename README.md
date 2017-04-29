@@ -29,9 +29,9 @@ The entire ImageJ functionality is contained in the single archive ``ij.jar``. T
 Code for ImageJ plugins is contained in the ``src-plugins`` directory. Plugins may be contained in Java packages (such as ``my_plugins`` in this example). **Note** that packages with plugins may only be **one level deep**, otherwise ImageJ will not find them! It is recommended to use at least one underscore (``_``) in a plugin name to make ImageJ automatically install the plugin into the ``Plugins`` menu at startup.
 
 ## Executing plugins
-At startup, ImageJ automaticall installs existing plugin classes (under the above conditions) into the ``Plugins`` menu. To execute, simple select the listed plugin from the menu.
+At startup, ImageJ automatically installs existing plugins (under the above conditions) into the ``Plugins`` menu. To execute, simply select the listed plugin from the menu.
 
-If the plugin's source code is **edited**, the associated ``.class`` file in ``plugins/`` is updated (by Eclipse), but **not** automatically reloaded by the ImageJ runtime. To **exectute an edited plugin**, use ``Plugins`` -> ``Compile and Run...`` and select the associated ``.class`` file (no compiler is needed).
+When the plugin's source code is **edited** in the IDE, the associated ``.class`` file in ``plugins/`` is updated (by Eclipse/IntelliJ), but **not** automatically reloaded by the ImageJ runtime. To **exectute an edited plugin** in ImageJ, use ``Plugins`` -> ``Compile and Run...`` and select the associated ``.class`` file (no compiler is needed).
 
 ## Adding other libraries (jars)
 This project uses **no dependency management** (such as *Maven*) to keep things simple. If any external libraries are required, just do the following:
