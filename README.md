@@ -13,7 +13,7 @@ Choose whichever you want to use and delete (or keep) the other.
 ### Eclipse
 Start the **Eclipse Jave IDE** and use ``Open Projects from File System...`` to navigate to the ``project-eclipse/`` folder.
 
-###IntelliJ
+### IntelliJ
 Start **IntelliJ IDEA** and use ``Open`` in the Weclome screen to navigate to the ``project-intellij/`` folder.
 
 ## Starting ImageJ
