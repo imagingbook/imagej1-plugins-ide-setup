@@ -1,5 +1,7 @@
 # imagej1-plugin-eclipse
-This repo contains a minimal setup for writing ImageJ (1) plugins with the Eclipse IDE.
+This repo contains a minimal setup for writing ImageJ (1) plugins with the Eclipse IDE. 
+
+The Eclipse project is set up with ``plugins/`` as the default output folder (for generated ``.class`` files).
 
 ## Setup
 Clone this repository, start **Eclipse** and open this project with ``Open Projects from File System...`` (at the top-level directory).
@@ -19,4 +21,10 @@ Code for ImageJ plugins is contained in the ``src-plugins`` directory. Plugins m
 ## Executing plugins
 At startup, ImageJ automaticall installs plugins (under the above conditions) into the ``Plugins`` menu. To execute, simple select the plugin from the menu.
 
-If the plugin's source code is **edited**, the associated ``.class`` file in ``plugins/`` is updated (by Eclipse), but **not** automatically reloaded by the ImageJ runtime. To exectute an edited plugin, use ``Plugins`` -> ``Compile and Run...`` and select the associated ``.class`` file (no compiler is needed for this).
+If the plugin's source code is **edited**, the associated ``.class`` file in ``plugins/`` is updated (by Eclipse), but **not** automatically reloaded by the ImageJ runtime. To **exectute an edited plugin**, use ``Plugins`` -> ``Compile and Run...`` and select the associated ``.class`` file (no compiler is needed).
+
+## Adding other libraries
+This project does not use any dependency management (such as *Maven*) to keep things simple. If any external libraries are required, just do the following:
+- Copy the associated JAR file ``xxx.jar`` into ``jars/``.
+- In eclipse, add the JAR file to Java build path.
+- Restart ImageJ.
