@@ -14,7 +14,7 @@ Choose whichever you want to use and delete (or keep) the other.
 Start the **Eclipse Java IDE** and use ``Open Projects from File System...`` to navigate to the ``project-eclipse/`` folder.
 
 ### IntelliJ:
-Start **IntelliJ IDEA** and use ``Open`` in the Weclome screen to navigate to the ``project-intellij/`` folder.
+Start the **IntelliJ IDEA** and use ``Open`` in the *Welcome screen* to navigate to the ``project-intellij/`` folder.
 
 ## Starting ImageJ
 The ImageJ runtime can be launched in various ways:
