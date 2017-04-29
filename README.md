@@ -19,7 +19,7 @@ Start the **IntelliJ IDEA** and use ``Open`` in the *Welcome screen* to navigate
 ## Starting ImageJ
 The ImageJ runtime can be launched in various ways:
 - **Windows**: Execute ``ImageJ.exe`` (by double-clicking on the file).
-When ImageJ starts up, it may ask for the ``javaw.exe`` execetutable, typically located in ``C:\Program Files\java\jre1.8xxx\bin\``. In case of problems, simply delete the ``ImageJ.cfg`` file and start anew.
+When ImageJ starts up, it may ask for the ``javaw.exe`` executable, typically located in ``C:\Program Files\java\jre1.8xxx\bin\``. In case of problems, simply delete the ``ImageJ.cfg`` file and start anew.
 - **MacOS**: Launch ``ij.jar``.
 - **Java**: Run the ``ij.ImageJ.main()`` method within Eclipse.
 
