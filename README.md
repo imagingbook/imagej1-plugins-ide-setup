@@ -1,4 +1,4 @@
-# Simple Setup for AuthoringImageJ Plugins in Eclipse
+# Simple Setup for Authoring ImageJ Plugins in Eclipse
 This repo contains a minimal setup for writing ImageJ (1) plugins with the Eclipse IDE. 
 The Eclipse project is set up with ``plugins/`` as the default output folder (for generated ``.class`` files).
 
