@@ -1,5 +1,5 @@
 # Setup for Authoring ImageJ Plugins with Eclipse or IntelliJ
-This repo contains a minimal setup for writing ImageJ (1) plugins with the [Eclipse](https://www.eclipse.org/) or [IntelliJ](https://www.jetbrains.com/idea/), respectively
+This repo contains a minimal setup for writing ImageJ (1) plugins with the [Eclipse](https://www.eclipse.org/) or [IntelliJ](https://www.jetbrains.com/idea/), respectively.
 The projects are set up with ``plugins/`` as the default output folder (for generated ``.class`` files).
 
 This repository is part of the [**imagingbook**](http://imagingbook.com) support suite.
