@@ -1,4 +1,4 @@
-# Simple Setup for Authoring ImageJ Plugins in Eclipse
+# Minimal Setup for Authoring ImageJ Plugins with Eclipse or IntelliJ
 This repo contains a minimal setup for writing ImageJ (1) plugins with the [Eclipse](https://www.eclipse.org/) or [IntelliJ](https://www.jetbrains.com/idea/), respectively
 The projects are set up with ``plugins/`` as the default output folder (for generated ``.class`` files).
 
@@ -10,10 +10,10 @@ See [www.imagingbook.com](http://imagingbook.com) for additional resources.
 Clone this repository. It contains separate folders ``project-eclipse/`` and ``project-intellij``, each containing a self-contained project for Eclipse and IntelliJ, respectively. 
 Choose whichever you want to use and delete (or keep) the other.
 
-### Eclipse
+### Eclipse:
 Start the **Eclipse Java IDE** and use ``Open Projects from File System...`` to navigate to the ``project-eclipse/`` folder.
 
-### IntelliJ
+### IntelliJ:
 Start **IntelliJ IDEA** and use ``Open`` in the Weclome screen to navigate to the ``project-intellij/`` folder.
 
 ## Starting ImageJ
