@@ -43,7 +43,7 @@ When the plugin's source code is **edited** in the IDE, the associated ``.class`
 ## Adding other libraries (jars)
 This project uses **no dependency management** (such as *Maven*) to keep things simple. If any external libraries are required, just do the following:
 - Copy the associated JAR file ``xxx.jar`` into ``jars/``.
-- In Eclipse/IntelliJ, add the JAR file to Java build path.
+- In your IDE, add the JAR file to Java build path.
 - Restart ImageJ.
 
 
