@@ -18,7 +18,7 @@ Editing and saving plugin source files should update the associated class files 
 Start the **IntelliJ IDEA** and use ``Open`` in the *Welcome screen* to navigate to the ``project-intellij/`` folder.
 Editing and saving plugin source files should update the associated class files (in ``plugins``) automatically.
 
-### IntelliJ:
+### NetBeans:
 Start the **NetBeans IDE** and use ``File`` -> ``Open Project`` to navigate to the ``project-netbeans/`` folder.
 After editing plugin source files, use ``Build Project`` to update the associated class files (in ``plugins``).
 
