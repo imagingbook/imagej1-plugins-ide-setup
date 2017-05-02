@@ -1,5 +1,5 @@
-# Setup for Authoring ImageJ Plugins with Eclipse or IntelliJ
-This repo contains a minimal setup for writing ImageJ (1) plugins with the [Eclipse](https://www.eclipse.org/) or [IntelliJ](https://www.jetbrains.com/idea/), respectively.
+# Setup for Authoring ImageJ Plugins with Eclipse, IntelliJ or NetBeans
+This repo contains a minimal setup for writing ImageJ (1) plugins with the [Eclipse](https://www.eclipse.org/), [IntelliJ](https://www.jetbrains.com/idea/) or [NetBeans](https://netbeans.org/), respectively.
 The projects are set up with ``plugins/`` as the default output folder (for generated ``.class`` files).
 
 This repository is part of the [**imagingbook**](http://imagingbook.com) support suite.
@@ -12,9 +12,16 @@ Choose whichever you want to use and delete (or keep) the other.
 
 ### Eclipse:
 Start the **Eclipse Java IDE** and use ``Open Projects from File System...`` to navigate to the ``project-eclipse/`` folder.
+Editing and saving plugin source files should update the associated class files (in ``plugins``) automatically.
 
 ### IntelliJ:
 Start the **IntelliJ IDEA** and use ``Open`` in the *Welcome screen* to navigate to the ``project-intellij/`` folder.
+Editing and saving plugin source files should update the associated class files (in ``plugins``) automatically.
+
+### IntelliJ:
+Start the **NetBeans IDE** and use ``File`` -> ``Open Project`` to navigate to the ``project-netbeans/`` folder.
+After editing plugin source files, use ``Build Project`` to update the associated class files (in ``plugins``).
+
 
 ## Starting ImageJ
 The ImageJ runtime can be launched in various ways:
