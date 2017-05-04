@@ -1,4 +1,4 @@
-# Setup for Authoring ImageJ Plugins with Eclipse, IntelliJ or NetBeans
+# Setup for writing ImageJ Plugins with Eclipse, IntelliJ or NetBeans
 This repo contains a minimal setup for writing ImageJ (1) plugins with the [Eclipse](https://www.eclipse.org/), [IntelliJ](https://www.jetbrains.com/idea/) or [NetBeans](https://netbeans.org/), respectively.
 The projects are set up with ``plugins/`` as the default output folder (for generated ``.class`` files).
 
