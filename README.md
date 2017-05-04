@@ -7,7 +7,7 @@ See [www.imagingbook.com](http://imagingbook.com) for additional resources.
 
 
 ## Setup
-Clone this repository. It contains separate folders ``project-eclipse/`` and ``project-intellij/``, each containing a self-contained project for Eclipse and IntelliJ, respectively. 
+Clone this repository. It contains separate folders ``project-eclipse/``, ``project-intellij/`` and ``project-netbeans``, each containing a self-contained project for Eclipse, IntelliJ and NetBeans, respectively. 
 Choose whichever you want to use and delete (or keep) the other.
 
 ### Eclipse:
