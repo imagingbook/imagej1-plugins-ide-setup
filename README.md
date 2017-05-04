@@ -12,15 +12,15 @@ Choose whichever you want to use and delete (or keep) the others.
 
 ### Eclipse:
 Start the **Eclipse Java IDE** and use ``Open Projects from File System...`` to navigate to the ``project-eclipse/`` folder.
-Editing and saving plugin source files should update the associated class files (in ``plugins``) automatically.
+Editing and saving plugin source files should update the associated class files (in ``plugins/``) automatically.
 
 ### IntelliJ:
 Start the **IntelliJ IDEA** and use ``Open`` in the *Welcome screen* to navigate to the ``project-intellij/`` folder.
-Editing and saving plugin source files should update the associated class files (in ``plugins``) automatically.
+Editing and saving plugin source files should update the associated class files (in ``plugins/``) automatically.
 
 ### NetBeans:
 Start the **NetBeans IDE** and use ``File`` -> ``Open Project`` to navigate to the ``project-netbeans/`` folder.
-After editing plugin source files, use ``Build Project`` to update the associated class files (in ``plugins``).
+After editing plugin source files, use ``Build Project`` to update the associated class files (in ``plugins/``).
 
 
 ## Starting ImageJ
@@ -33,7 +33,7 @@ When ImageJ starts up, it may ask for the ``javaw.exe`` executable, typically lo
 The entire ImageJ functionality is contained in the single archive ``ij.jar``. To **update** to the most recent version, simply select ``Help`` -> ``Update ImageJ...`` from the ImageJ main menu.
 
 ## Adding/editing your plugin code
-Code for ImageJ plugins is contained in the ``src-plugins`` directory. Plugins may be contained in Java packages (such as ``my_plugins`` in this example). **Note** that packages with plugins may only be **one level deep**, otherwise ImageJ will not find them! It is recommended to use at least one underscore (``_``) in a plugin name to make ImageJ automatically install the plugin into the ``Plugins`` menu at startup.
+Code for ImageJ plugins is contained in the ``<project-root>/src-plugins/`` directory. Plugins may be contained in Java packages (such as ``my_plugins`` in this example). **Note** that packages with plugins may only be **one level deep**, otherwise ImageJ will not find them! It is recommended to use at least one underscore (``_``) in a plugin name to make ImageJ automatically install the plugin into the ``Plugins`` menu at startup.
 
 ## Executing plugins
 At startup, ImageJ automatically installs existing plugins (under the above conditions) into the ``Plugins`` menu. To execute, simply select the listed plugin from the menu.
