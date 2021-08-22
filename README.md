@@ -46,6 +46,7 @@ This project uses **no dependency management** (such as *Maven*) to keep things 
 - In your IDE, add the JAR file to the Java build path.
 - Restart ImageJ.
 
+Alternatively, see [this repository](https://github.com/imagingbook/imagingbook-maven-demo-project) for a minimal Maven-based ImageJ setup.
 
 ## Additional ImageJ resources
 
